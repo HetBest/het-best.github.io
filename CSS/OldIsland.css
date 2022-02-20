@@ -1,0 +1,29 @@
+.Name {
+  color: #E5BB00;
+  font-size: 100px;
+  margin-left: 450px;
+}
+
+.Image {
+  margin-left: 330px;
+}
+
+.Treiler {
+  margin-left: 200px;
+}
+
+.Dis {
+  color: #E5BB00;
+  font-size: 60px;
+  margin-left: 250px;
+}
+
+.Download {
+  color: #CCA300;
+  font-size: 60px;
+  margin-left: 550px;
+}
+
+.Download:hover {
+  color: #B28B00;
+}

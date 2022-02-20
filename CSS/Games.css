@@ -1,0 +1,70 @@
+.Name {
+  color: #91baff;
+  font-size: 100px;
+  margin-left: 600px;
+}
+
+.NameLine {
+  height: 20px;
+  width: 1370px;
+  background: #28A9F1;
+  margin-left: 40px;
+  border-radius: 50px;
+  border: 0px;
+}
+
+.CosmicPath {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.CosmicPathBorder {
+  border-radius: 50px;
+  height: 350px;
+  width: 350px;
+  margin-left: 60px;
+  background: white;
+  margin-top: 40px;
+}
+
+.OldIsland {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.OldIslandBorder {
+  border-radius: 50px;
+  height: 350px;
+  width: 350px;
+  margin-left: 400px;
+  background: white;
+  margin-top: -334px;
+}
+
+.DefuseABomb {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.DefuseABombBorder {
+  border-radius: 50px;
+  height: 350px;
+  width: 350px;
+  margin-left: 400px;
+  background: white;
+  margin-top: -332px;
+}
+
+.Reblu {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.RebluBorder {
+  border-radius: 50px;
+  height: 350px;
+  width: 350px;
+  margin-left: -800px;
+  background: white;
+  margin-top: 40px;
+}

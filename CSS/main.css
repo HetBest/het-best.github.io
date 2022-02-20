@@ -1,0 +1,39 @@
+.Menu {
+  margin: -10px;
+  height: 100%;
+  margin-top: -69px;
+  position: fixed;
+  z-index: 0;
+}
+
+.MenuButton {
+  margin-top: 300px;
+  position: fixed;
+  z-index: 1;
+  visibility: hidden;
+}
+
+.MenuShowButton {
+  margin-top: 300px;
+  margin-left: 80px;
+  position: fixed;
+  z-index: 1;
+}
+
+.HomeButton {
+  z-index: 1;
+  position: fixed;
+  margin-left: 5px;
+  margin-top: -40px;
+}
+
+.GamesButton {
+  z-index: 1;
+  position: fixed;
+  margin-left: 5px;
+  margin-top: 40px;
+}
+
+main {
+  margin-left: 100px;
+}

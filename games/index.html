@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <script src="https://het-best.github.io/JS/Games.js"></script>
+    <script src="https://het-best.github.io/JS/main.js"></script>
+    <link rel="stylesheet" href="https://het-best.github.io/CSS/Games.css">
+    <link rel="stylesheet" href="https://het-best.github.io/CSS/main.css">
+    <link rel="icon" href="https://het-best.github.io/favicon.ico" sizes="32x32">
+    <meta name="author" content="HetBest">
+    <meta name="keywords" content="HetBest">
+    <title> Игры </title>
+    <style>
+      body {
+        background: url('https://het-best.github.io/Back.png');
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <noscript> Включите JavaScript. </noscript>
+      <img class="Menu" id="Menu" src="https://het-best.github.io/images/Menu.png">
+      <img title="Кнопка разкрытия меню" class="MenuButton" id="MenuButtonOpen" src="https://het-best.github.io/images/MenuButtonOpen.png" onclick="Menu_pressed()" height="50px">
+      <img title="Кнопка скрытия меню" class="MenuShowButton" id="MenuButtonShow" src="https://het-best.github.io/images/MenuButtonShow.png" onclick="MenuShow_pressed()" height="50px">
+      <img title="Кнопка домой" class="HomeButton" id="HomeButton" src="https://het-best.github.io/images/HomeButton.png" onclick="Home_pressed()">
+      <img title="Кнопка игры" class="GamesButton" id="GamesButton" src="https://het-best.github.io/images/GamesButton.png">
+    </header>
+    <main>
+      <h1 class="Name"> Игры <h1>
+      <hr class="NameLine">
+      <div class="CosmicPathBorder">
+      <img src="https://het-best.github.io/images/CosmicPath.png" class="CosmicPath" height="300px" onclick="CosmicPath_pressed()">
+      <div class="OldIslandBorder">
+      <img src="https://het-best.github.io/images/OldIsland.png" class="OldIsland" height="300px" onclick="OldIsland_pressed()">
+      <div class="DefuseABombBorder">
+      <img src="https://het-best.github.io/images/DefuseABomb.png" class="DefuseABomb" height="300px" onclick="DefuseABomb_pressed()">
+      <div class="RebluBorder">
+      <img src="https://het-best.github.io/images/Reblu.png" class="Reblu" height="300px" onclick="Reblu_pressed()">
+    </main>
+  </body>
+</html>
