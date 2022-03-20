@@ -11,5 +11,5 @@ function NewGame3_pressed() {
 }
 
 function AllGames_pressed() {
-  document.location.assign("https://het-best.github.io/Games")
+  document.location.assign("https://het-best.github.io/games")
 }
