@@ -1,0 +1,76 @@
+body {
+  background: black;
+  background-size: 100%;
+  font-family: "Pangolin";
+}
+
+main {
+  cursor: default;
+}
+
+.icon {
+  z-index: 1;
+  height: 500px;
+  border-radius: 40px;
+  margin-left: 440px;
+  margin-top: 200px;
+}
+
+.border {
+  z-index: -1;
+  height: 580px;
+  width: 580px;
+  background: grey;
+  border-radius: 40px;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 160px;
+  opacity: .6;
+}
+
+.disctiption_text {
+  font-size: 100px;
+  margin-left: 500px;
+  color: white;
+}
+
+.disctiption {
+  font-size: 70px;
+  margin-left: 250px;
+  color: grey;
+}
+
+.treiler {
+  z-index: 1;
+  margin-left: 250px;
+  border-radius: 70px;
+  position: absolute;
+}
+
+.treiler_border {
+  z-index: -1;
+  margin-left: 200px;
+  border-radius: 40px;
+  background: grey;
+  opacity: .8;
+  width: 1124px;
+  height: 818px;
+  position: absolute;
+}
+
+.download {
+  margin-left: 100px;
+  font-size: 100px;
+  margin-top: 950px;
+}
+
+.download_text {
+  color: #524F8A;
+  margin-left: 300px;
+}
+
+.download_windows {
+  color: #716CC6;
+  text-decoration: none;
+  margin-left: 100px;
+}

@@ -1,62 +1,40 @@
-.Welcome {
-  color: #91baff;
-  font-size: 100px;
-  margin-left: 240px;
+.s {
+  margin-top: 1000px;
+  position: absolute;
 }
 
-.WelcomeLine {
-  height: 20px;
-  width: 1370px;
-  background: #28A9F1;
-  margin-left: 40px;
-  border-radius: 50px;
-  border: 0px;
-}
-
-.NewGames {
-  color: #5B92E5;
+.about_name {
+  text-align: center;
   font-size: 80px;
-  margin-top: 0px;
-  margin-left: 70px;
 }
 
-.NewGame {
-  margin-left: 25px;
-  margin-top: 25px;
+.last_game {
+  font-size: 80px;
+  margin-left: 450px;
 }
 
-.NewGame1Border {
-  border-radius: 50px;
-  height: 350px;
-  width: 350px;
-  margin-left: 60px;
+.last_game_icon {
+  border-radius: 30px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.last_game_border {
+  border-radius: 40px;
+  margin-left: 550px;
+  height: 280px;
+  width: 280px;
   background: white;
-  margin-top: -40px;
 }
 
-.NewGame2Border {
-  border-radius: 50px;
-  height: 350px;
-  width: 350px;
-  margin-left: 400px;
-  background: white;
-  margin-top: -334px;
+.last_game_border:hover {
+  background: #D0D0D0;
+  cursor: pointer;
 }
 
-.NewGame3Border {
-  border-radius: 50px;
-  height: 350px;
-  width: 350px;
-  margin-left: 400px;
-  background: white;
-  margin-top: -332px;
-}
-
-.Games {
-  margin-left: 1300px;
-  margin-top: 70px;
-}
-
-.NewGamesDiv {
-  margin-top: -230px;
+.last_game_text {
+  position: absolute;
+  font-size: 80px;
+  margin-left: 50px;
+  margin-top: 180px;
 }

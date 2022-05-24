@@ -1,0 +1,110 @@
+body {
+  background: linear-gradient(90deg, rgba(77,130,219,1) 0%, rgba(57,45,199,1) 100%);
+  font-family: "Pangolin";
+}
+
+.collition {
+  width: 100%;
+  height: 150px;
+  position: static;
+  background: linear-gradient(90deg, rgba(77,130,219,1) 0%, rgba(57,45,199,1) 100%);
+  z-index: 0;
+}
+
+.menu {
+  z-index: 2;
+  position: fixed;
+  width: 98.5%;
+  height: 100px;
+  background: #6D94D4;
+  border-radius: 20px;
+  border: solid 5px #6588C2;
+  text-align: center;
+}
+
+.menu_shadow {
+  z-index: 0;
+  opacity: 0.2;
+  position: fixed;
+  width: 98.5%;
+  height: 100px;
+  background: black;
+  border-radius: 20px;
+  border: solid 5px black;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+
+.games_button_border {
+  z-index: 1;
+  position: absolute;
+  width: 9%;
+  height: 70px;
+  background: #6DBED4;
+  border-radius: 20px;
+  border: solid 5px #60ACC1;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: 8px;
+}
+
+.games_button {
+  margin-top: 5px;
+  font-size: 50px;
+}
+
+.games_button_border:hover {
+  background: #60ACC1;
+  cursor: pointer;
+}
+
+.main_menu_button_border {
+  z-index: 1;
+  position: absolute;
+  width: 22.5%;
+  height: 70px;
+  background: #6DBED4;
+  border-radius: 20px;
+  border: solid 5px #60ACC1;
+  text-align: center;
+  margin-left: 750px;
+  margin-top: 8px;
+}
+
+.main_menu_button {
+  margin-top: 5px;
+  font-size: 50px;
+}
+
+.main_menu_button_border:hover {
+  background: #60ACC1;
+  cursor: pointer;
+}
+
+
+
+
+
+::selection {
+   background: transparent;
+}
+::-moz-selection {
+   background: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  width: 27px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5A5A5A;
+}

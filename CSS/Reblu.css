@@ -1,35 +1,104 @@
-.Name {
-  color: white;
+body {
+  background: url("images/RebluBack.png");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Pangolin";
+}
+
+main {
+  cursor: default;
+}
+
+.icon {
+  z-index: 1;
+  height: 500px;
+  border-radius: 40px;
+  margin-left: 440px;
+  margin-top: 200px;
+}
+
+.border {
+  z-index: -1;
+  height: 580px;
+  width: 580px;
+  background: grey;
+  border-radius: 40px;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 160px;
+  opacity: .6;
+}
+
+.disctiption_text {
   font-size: 100px;
-  margin-left: 550px;
+  margin-left: 500px;
 }
 
-.Image {
-  margin-left: 370px;
-}
-
-.Treiler {
-  margin-left: 200px;
-}
-
-.Dis {
-  color: white;
-  font-size: 60px;
-  margin-left: 250px;
-}
-
-.Controls {
+.disctiption {
+  font-size: 70px;
+  margin-left: 150px;
   color: grey;
-  font-size: 60px;
-  margin-left: 250px;
 }
 
-.Download {
-  color: grey;
-  font-size: 60px;
+.controls {
+  font-size: 85px;
+  color: #5EA876;
   margin-left: 300px;
 }
 
-.Download:hover {
-  color: white;
+.treiler {
+  z-index: 1;
+  margin-left: 250px;
+  border-radius: 70px;
+  position: absolute;
+}
+
+.treiler_border {
+  z-index: -1;
+  margin-left: 200px;
+  border-radius: 40px;
+  background: grey;
+  opacity: .8;
+  width: 1124px;
+  height: 818px;
+  position: absolute;
+}
+
+.download {
+  margin-left: 100px;
+  font-size: 100px;
+  margin-top: 950px;
+}
+
+.download_text {
+  color: #524F8A;
+  margin-left: 300px;
+}
+
+.download_windows {
+  color: #716CC6;
+  text-decoration: none;
+  margin-left: 400px;
+}
+
+.download_MacOs {
+  color: #716CC6;
+  text-decoration: none;
+  margin-left: 450px;
+}
+
+.apple {
+  position: absolute;
+  margin-top: -40px;
+}
+
+.linux {
+  position: absolute;
+}
+
+.download_linux {
+  color: #716CC6;
+  text-decoration: none;
+  margin-left: 450px;
 }

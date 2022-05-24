@@ -1,42 +1,36 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <script src="https://het-best.github.io/JS/index.js"></script>
-    <script src="https://het-best.github.io/JS/main.js"></script>
-    <link rel="stylesheet" href="https://het-best.github.io/CSS/index.css">
-    <link rel="stylesheet" href="https://het-best.github.io/CSS/main.css">
-    <link rel="icon" href="https://het-best.github.io/favicon.ico" sizes="32x32">
-    <meta charset="utf-8">
     <meta name="author" content="HetBest">
-    <meta name="keywords" content="HetBest">
+    <link rel="stylesheet" href="https://het-best.github.io/CSS/index.css">
+    <link rel="stylesheet" href="https://het-best.github.io/CSS/cube.css">
+    <link rel="stylesheet" href="https://het-best.github.io/CSS/default.css">
+    <link rel="stylesheet" href="https://het-best.github.io/CSS/text.css">
+    <link rel="icon" href="https://het-best.github.io/icon.ico" sizes="256x256">
+    <script src="https://het-best.github.io/JS/index.js"></script>
+    <script src="https://het-best.github.io/JS/default.js"></script>
     <title> Главная страница </title>
-    <style>
-      body {
-        background: url('https://het-best.github.io/Back.png');
-      }
-    </style>
   </head>
   <body>
     <header>
-      <noscript> Включите JavaScript. </noscript>
-      <img class="Menu" id="Menu" src="https://het-best.github.io/images/Menu.png">
-      <img title="Кнопка разкрытия меню" class="MenuButton" id="MenuButtonOpen" src="https://het-best.github.io/images/MenuButtonOpen.png" onclick="Menu_pressed()" height="50px">
-      <img title="Кнопка скрытия меню" class="MenuShowButton" id="MenuButtonShow" src="https://het-best.github.io/images/MenuButtonShow.png" onclick="MenuShow_pressed()" height="50px">
-      <img title="Кнопка домой" class="HomeButton" id="HomeButton" src="https://het-best.github.io/images/HomeButton.png">
-      <img title="Кнопка игры" class="GamesButton" id="GamesButton" src="https://het-best.github.io/images/GamesButton.png" onclick="Games_pressed()">
+      <div class="menu">
+        <div class="games_button_border" onclick="to_games()">
+          <h1 class="games_button"> Игры <h1>
+        </div>
+        <div class="main_menu_button_border">
+          <h1 class="main_menu_button"> Главное меню <h1>
+        </div>
+      </div>
+      <div class="menu_shadow"></div>
     </header>
     <main>
-      <h1 class="Welcome"> Добро пожаловать!!! <h1>
-      <hr class="WelcomeLine">
-      <p class="NewGames"> Новые игры </p>
-      <img src="https://het-best.github.io/images/MenuButtonOpen.png" class="Games" onclick="AllGames_pressed()">
-      <div class="NewGamesDiv">
-        <div class="NewGame1Border">
-        <img src="https://het-best.github.io/images/Reblu.png" class="NewGame" height="300px" onclick="NewGame1_pressed()">
-        <div class="NewGame2Border">
-        <img src="https://het-best.github.io/images/DefuseABomb.png" class="NewGame" height="300px" onclick="NewGame2_pressed()">
-        <div class="NewGame3Border">
-        <img src="https://het-best.github.io/images/OldIsland.png" class="NewGame" height="300px" onclick="NewGame3_pressed()">
+      <div class="collition"></div>
+      <h1 class="last_game"> Последняя игра </h1>
+      <div class="last_game_icon" onclick="to_last_game()">
+        <div class="last_game_border">
+          <h1 class="last_game_text"> Reblu </h1>
+          <img src="images/Reblu.png" class="last_game_icon" height="250px">
+        </div>
       </div>
     </main>
   </body>

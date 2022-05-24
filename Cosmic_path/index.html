@@ -1,31 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <script src="https://het-best.github.io/JS/main.js"></script>
-    <link rel="stylesheet" href="https://het-best.github.io/CSS/CosmicPath.css">
-    <link rel="stylesheet" href="https://het-best.github.io/CSS/main.css">
-    <link rel="icon" href="https://het-best.github.io/images/CosmicPath.png" sizes="32x32">
-    <meta charset="utf-8">
     <meta name="author" content="HetBest">
-    <meta name="keywords" content="HetBest, CosmicPath">
+    <link rel="stylesheet" href="https://het-best.github.io/CSS/default.css">
+    <link rel="stylesheet" href="https://het-best.github.io/CSS/text.css">
+    <link rel="stylesheet" href="https://het-best.github.io/CSS/cosmic_path.css">
+    <link rel="icon" href="https://het-best.github.io/images/OldIsland.png" sizes="608x608">
+    <script src="https://het-best.github.io/JS/default.js"></script>
     <title> Cosmic path </title>
   </head>
   <body>
     <header>
-      <noscript> Включите JavaScript. </noscript>
-      <img class="Menu" id="Menu" src="https://het-best.github.io/images/Menu.png">
-      <img title="Кнопка разкрытия меню" class="MenuButton" id="MenuButtonOpen" src="https://het-best.github.io/images/MenuButtonOpen.png" onclick="Menu_pressed()" height="50px">
-      <img title="Кнопка скрытия меню" class="MenuShowButton" id="MenuButtonShow" src="https://het-best.github.io/images/MenuButtonShow.png" onclick="MenuShow_pressed()" height="50px">
-      <img title="Кнопка домой" class="HomeButton" id="HomeButton" src="https://het-best.github.io/images/HomeButton.png" onclick="Home_pressed()">
-      <img title="Кнопка игры" class="GamesButton" id="GamesButton" src="https://het-best.github.io/images/GamesButton.png" onclick="Games_pressed()">
+      <div class="menu">
+        <div class="games_button_border" onclick="to_games()">
+          <h1 class="games_button"> Игры <h1>
+        </div>
+        <div class="main_menu_button_border" onclick="to_main_menu()">
+          <h1 class="main_menu_button"> Главное меню <h1>
+        </div>
+      </div>
+      <div class="menu_shadow"></div>
     </header>
     <main>
-      <h1 class="Name"> Cosmic path <h1>
-      <img src="https://het-best.github.io/images/CosmicPath.png" class="Image" height="700px">
-      <p class="Dis"> Простой космический шутер </p>
-      <iframe class="Treiler" width="956" height="538" src="https://www.youtube.com/embed/6uv3RfEP85I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <a href="Cosmic path.zip" download="" class="Download"> Скачать </a>
+      <div class="border"></div>
+      <img src="https://het-best.github.io/images/CosmicPath.png" class="icon"></img>
+      <h1 class="disctiption_text"> Описание: </h1>
+      <h1 class="disctiption"> Простой космический шутер </h1>
+      <video width="1024" height="768" controls="controls" poster="https://het-best.github.io/images/CosmicPath.png" class="treiler">
+        <source src="https://het-best.github.io/videos/cosmic_path.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+      </video>
+      <div class="treiler_border"></div>
+
+      <div class="download">
+        <h1 class="download_text"> Скачать </h1>
+        <a href="https://het-best.github.io/Cosmic path.zip" download="" class="download_windows"> Версия для всех устройств. </a>
+      </div>
     </main>
   </body>
 </html>
